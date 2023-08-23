@@ -1,3 +1,6 @@
+import github from '@/public/github.svg';
+import linkedin from '@/public/linkedin.svg';
+
 export default {
   skills: [
     "JavaScript",
@@ -11,36 +14,29 @@ export default {
     {
       name: "GitHub",
       url: "https://github.com/sebastian009w",
+      image: github,
     },
     {
       name: "Linkedin",
       url: "https://www.linkedin.com/in/#",
-    },
-    {
-      name: "Instagram",
-      url: "https://www.instagram.com/#",
-    },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/#",
+      image: linkedin,
     },
   ],
   links: [
     {
-      name: "About",
+      id: 1,
+      name: "Sobre mi",
       link: "/#about",
     },
     {
-      name: "Work",
+      id: 2,
+      name: "Proyectos",
       link: "/#work",
     },
     {
-      name: "Contact",
+      id: 3,
+      name: "Contacto",
       link: "/#contact",
     },
-    {
-      name: "Services",
-      link: "/#services"
-    } 
   ],
 };

@@ -17,11 +17,8 @@ export default function RootLayout({ children }) {
           <header className="relative mx-auto max-w-screen-xl flex gap-3 items-center justify-end">
             <Navbar />
           </header>
-          <section className="relative h-96">
-
-          </section>
         </div>
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );
