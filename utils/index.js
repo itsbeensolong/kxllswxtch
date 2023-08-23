@@ -38,5 +38,9 @@ export default {
       name: "Contact",
       link: "/#contact",
     },
+    {
+      name: "Services",
+      link: "/#services"
+    } 
   ],
 };
