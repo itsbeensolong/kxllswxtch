@@ -1,4 +1,3 @@
-import Logo from "@/components/icons/logo";
 import utils from "@/utils/index";
 import Link from "next/link";
 
@@ -7,7 +6,7 @@ export default function Navbar() {
     <nav className="flex">
       <ul className="flex justify-center items-center gap-4 mx-4 my-6 flex-wrap">
         {utils.links.map((lnk) => (
-          <li>
+          <li key={lnk.id}>
             <Link href={lnk.link} className="text-white hover:underline">{lnk.name}</Link>
           </li>
         ))}
