@@ -21,7 +21,13 @@ export default function SortableTools({ children, id }) {
   };
 
   return (
-    <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
+    <div
+      ref={setNodeRef}
+      style={style}
+      {...attributes}
+      {...listeners}
+      className="mt-5"
+    >
       {children}
     </div>
   );

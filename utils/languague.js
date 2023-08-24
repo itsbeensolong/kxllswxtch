@@ -2,31 +2,31 @@ export default [
   {
     id: 1,
     title: "Lenguajes",
-    tools: "JavaScript",
+    tools: "JavaScript TypeScript",
     status: "init",
   },
   {
     id: 2,
     title: "Base de datos",
-    tools: "JavaScript",
+    tools: "Firebase SQLite",
     status: "medium",
   },
   {
     id: 3,
     title: "Herramientas",
-    tools: "JavaScript",
+    tools: "Vscode Git Github Bash",
     status: "end",
   },
   {
     id: 4,
     title: "Frameworks",
-    tools: "JavaScript",
+    tools: "Next.js Vue",
     status: "end",
   },
   {
     id: 5,
     title: "Otros",
-    tools: "JavaScript",
+    tools: "HTML5 CSS3 React",
     status: "medium",
   },
 ];
