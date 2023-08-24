@@ -18,7 +18,9 @@ export default function RootLayout({ children }) {
             <Navbar />
           </header>
         </div>
-        <main>{children}</main>
+        <div className="bg-black">
+          <main className="pl-1 lg:px-40">{children}</main>
+        </div>
       </body>
     </html>
   );

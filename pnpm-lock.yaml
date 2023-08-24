@@ -5,6 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@dnd-kit/core':
+    specifier: 6.0.8-next-202311924325
+    version: 6.0.8-next-202311924325(react-dom@18.2.0)(react@18.2.0)
+  '@dnd-kit/sortable':
+    specifier: 7.0.2-next-202304205747
+    version: 7.0.2-next-202304205747(@dnd-kit/core@6.0.8-next-202311924325)(react@18.2.0)
+  '@dnd-kit/utilities':
+    specifier: 3.2.1-next-2022102925547
+    version: 3.2.1-next-2022102925547(react@18.2.0)
   autoprefixer:
     specifier: 10.4.15
     version: 10.4.15(postcss@8.4.28)
@@ -47,6 +56,58 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.0
+    dev: false
+
+  /@dnd-kit/accessibility@3.0.1(react@18.2.0):
+    resolution: {integrity: sha512-HXRrwS9YUYQO9lFRc/49uO/VICbM+O+ZRpFDe9Pd1rwVv2PCNkRiTZRdxrDgng/UkvdC3Re9r2vwPpXXrWeFzg==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      tslib: 2.6.2
+    dev: false
+
+  /@dnd-kit/core@6.0.8-next-202311924325(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ceMnqDwqUaqj9MlFgmE/LhXnwHuMX/7EjDiI1CcOyuhNPDo8P80h9BwS4I7zzu+qmWbIZKPDAlfPD+TPZbnNHw==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      '@dnd-kit/accessibility': 3.0.1(react@18.2.0)
+      '@dnd-kit/utilities': 3.2.1(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      tslib: 2.6.2
+    dev: false
+
+  /@dnd-kit/sortable@7.0.2-next-202304205747(@dnd-kit/core@6.0.8-next-202311924325)(react@18.2.0):
+    resolution: {integrity: sha512-Tu8zY0nFrJSxm1OJkjdvq/fnuNj/bloj+HLNfHiO7dwWJ/NQv8BDFKTQFgS3/4IvBqlHMTF514F2y7BAHVdhjQ==}
+    peerDependencies:
+      '@dnd-kit/core': ^6.0.7-next-202304205747
+      react: '>=16.8.0'
+    dependencies:
+      '@dnd-kit/core': 6.0.8-next-202311924325(react-dom@18.2.0)(react@18.2.0)
+      '@dnd-kit/utilities': 3.2.1(react@18.2.0)
+      react: 18.2.0
+      tslib: 2.6.2
+    dev: false
+
+  /@dnd-kit/utilities@3.2.1(react@18.2.0):
+    resolution: {integrity: sha512-OOXqISfvBw/1REtkSK2N3Fi2EQiLMlWUlqnOK/UpOISqBZPWpE6TqL+jcPtMOkE8TqYGiURvRdPSI9hltNUjEA==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      tslib: 2.6.2
+    dev: false
+
+  /@dnd-kit/utilities@3.2.1-next-2022102925547(react@18.2.0):
+    resolution: {integrity: sha512-7jlYFuAwDcqRa8Bxzuu94Fe/FpQXJ2m1l6WIRCcuHjIoXxtcBMXpqoFNh1gYmqs0bZeqR9MB4H6e2eSG38B8pQ==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      tslib: 2.6.2
     dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.47.0):
