@@ -8,13 +8,13 @@ export default function Home() {
         <h6 className="text-purple-500 font-bold pl-2.5 mb-5">
           Bienvenido, Yo soy
         </h6>
-        <h1 className="text-4xl md:text-8xl font-thin mb-5">
+        <h1 className="text-4xl md:text-8xl mb-5">
           Johan Sebastian <br /> Castro Garcia
         </h1>
-        <h3 className="text-4xl md:text-7xl text-purple-600 font-thin mb-5">
+        <h3 className="text-4xl md:text-7xl text-purple-600 mb-5">
           Construyo aplicaciones web.
         </h3>
-        <p className="text-lg font-thin font-sans mb-5">
+        <p className="text-lg mb-5">
           Soy un desarrollador de software con sede en Colombia,
           <br /> y me especializo en la creación de sitios web excepcionales.
         </p>

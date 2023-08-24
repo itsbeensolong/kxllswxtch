@@ -1,6 +1,7 @@
 import Image from "next/image";
 import foto from "@/public/sebastian.png";
 import skill from "@/public/skills.png";
+import Languague from "@/components/LanguagueContext";
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
             <b className="text-purple-600"># {"  "}</b>Sobre Mi
           </h4>
 
-          <p className="font-thin">
+          <p>
             Creo en la importancia de brindar una experiencia de usuario
             excepcional en cada proyecto en el que trabajo. Disfruto colaborando
             con equipos multifuncionales para crear soluciones innovadoras y
@@ -29,13 +30,20 @@ export default function About() {
           />
         </article>
       </section>
-      <section className="text-white mt-24">
+      <section className="text-white mt-24 flex items-center gap-24">
         <article>
           <h3 className="font-semibold text-2xl mb-10 hover:underline">
             <b className="text-purple-600"># {"  "}</b>
             Skills
           </h3>
-          <Image src={skill} alt="Tech | Skills | Js" />
+          <Image
+            src={skill}
+            alt="Tech | Skills | Js"
+            className="object-containt w-auto h-96"
+          />
+        </article>
+        <article>
+          <Languague />
         </article>
       </section>
     </>
