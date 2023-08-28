@@ -1,15 +1,7 @@
-import github from '@/public/github.svg';
-import linkedin from '@/public/linkedin.svg';
+import github from "@/public/github.svg";
+import linkedin from "@/public/linkedin.svg";
 
 export default {
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React Native",
-    "React",
-    "Next.js",
-    "GraphQL",
-  ],
   media: [
     {
       name: "GitHub",
