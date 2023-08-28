@@ -124,12 +124,11 @@ export default function AddPage() {
         onDragEnd={handleDragEnd}
       >
         {Object.keys(boardSections).map((boardSectionKey) => (
-          <div key={boardSectionKey}>
-            <Tools
-              id={boardSectionKey}
-              itemsDragg={boardSections[boardSectionKey]}
-            />
-          </div>
+          <Tools
+            id={boardSectionKey}
+            itemsDragg={boardSections[boardSectionKey]}
+            key={boardSectionKey}
+          />
         ))}
         <DragOverlay dropAnimation={dropAnimation}>
           {dragg ? <ToolsItem dragg={dragg} /> : null}

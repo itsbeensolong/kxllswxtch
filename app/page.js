@@ -9,7 +9,7 @@ export default function Home() {
           Bienvenido, Yo soy
         </h6>
         <h1 className="text-4xl md:text-8xl mb-5">
-          Johan Sebastian <br /> Castro Garcia
+          Sebastian <br /> Garcia
         </h1>
         <h3 className="text-4xl md:text-7xl text-purple-600 mb-5">
           Construyo aplicaciones web.

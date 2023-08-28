@@ -14,22 +14,18 @@ export default function Tools({ id, itemsDragg }) {
     id,
   });
   return (
-    <div>
-      <SortableContext
-        id={id}
-        items={itemsDragg}
-        strategy={verticalListSortingStrategy}
-      >
-        <div ref={setNodeRef} className="flex justify-center flex-wrap">
-          {itemsDragg.map((dragItem) => (
-            <div key={dragItem.id}>
-              <SortableTools id={dragItem.id || null}>
-                <ToolsItem dragg={dragItem} />
-              </SortableTools>
-            </div>
-          ))}
-        </div>
-      </SortableContext>
-    </div>
+    <SortableContext
+      id={id}
+      items={itemsDragg}
+      strategy={verticalListSortingStrategy}
+    >
+      <div ref={setNodeRef} className="flex-grow">
+        {itemsDragg.map((dragItem) => (
+          <SortableTools id={dragItem.id || null} key={dragItem.id}>
+            <ToolsItem dragg={dragItem} />
+          </SortableTools>
+        ))}
+      </div>
+    </SortableContext>
   );
 }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import foto from "@/public/sebastian.png";
+import foto from "@/public/port.png";
 import skill from "@/public/skills.png";
 import Languague from "@/components/LanguagueContext";
 
@@ -31,7 +31,7 @@ export default function About() {
         </article>
       </section>
       <section className="text-white mt-24 flex items-center gap-24">
-        <article>
+        <article className="flex-1">
           <h3 className="font-semibold text-2xl mb-10 hover:underline">
             <b className="text-purple-600"># {"  "}</b>
             Skills
@@ -42,7 +42,7 @@ export default function About() {
             className="object-containt w-auto h-96"
           />
         </article>
-        <article>
+        <article className="flex flex-1 justify-center gap-5">
           <Languague />
         </article>
       </section>
