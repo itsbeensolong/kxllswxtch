@@ -1,5 +1,5 @@
 import Image from "next/image";
-import foto from "@/public/sebastian.png";
+import foto from "@/public/port.png";
 import skill from "@/public/skills.png";
 import Languague from "@/components/LanguagueContext";
 

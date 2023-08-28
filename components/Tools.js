@@ -19,13 +19,11 @@ export default function Tools({ id, itemsDragg }) {
       items={itemsDragg}
       strategy={verticalListSortingStrategy}
     >
-      <div ref={setNodeRef}>
+      <div ref={setNodeRef} className="flex-grow">
         {itemsDragg.map((dragItem) => (
-          <div key={dragItem.id}>
-            <SortableTools id={dragItem.id || null}>
-              <ToolsItem dragg={dragItem} />
-            </SortableTools>
-          </div>
+          <SortableTools id={dragItem.id || null} key={dragItem.id}>
+            <ToolsItem dragg={dragItem} />
+          </SortableTools>
         ))}
       </div>
     </SortableContext>

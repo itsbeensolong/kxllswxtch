@@ -2,7 +2,7 @@ export default [
   {
     id: 1,
     title: "Lenguajes",
-    tools: "JavaScript TypeScript",
+    tools: ["JavaScript", "TypeScript"],
     status: "init",
   },
   {
@@ -14,7 +14,7 @@ export default [
   {
     id: 3,
     title: "Herramientas",
-    tools: "Vscode Git Github Bash",
+    tools: "Vscode Git Github Bash Tailwindcss",
     status: "end",
   },
   {
