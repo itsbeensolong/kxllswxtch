@@ -1,5 +1,6 @@
 import About from "@/components/about/About";
 import Works from "@/components/works/Works";
+import Contact from "@/components/contact/Contact";
 import Link from "next/link";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       </section>
       <About />
       <Works />
+      <Contact />
     </>
   );
 }
