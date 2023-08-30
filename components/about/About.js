@@ -30,7 +30,7 @@ export default function About() {
           />
         </article>
       </section>
-      <section className="text-white mt-24 flex items-center gap-24">
+      <section className="text-white mt-24 flex items-center gap-24 min-h-screen">
         <article className="flex-1">
           <h3 className="font-semibold text-2xl mb-10 hover:underline">
             <b className="text-purple-600"># {"  "}</b>
