@@ -1,16 +1,22 @@
+import litTodoImage from "@/public/todo-lit.jpeg";
+
 export default [
   {
     id: 1,
-    title: "title",
-    description: "description",
-    technology: ["html"],
-    github: "",
-    demo: "",
+    title: "Todo Lit",
+    image: litTodoImage,
+    description:
+      "Aplicacion de tareas en donde utilizo unas de las herramientas mas satisfactorias en el mundo de la tecnologia 'Los web Component' Usando un backend As Services 'Firebase' Realizo una CRUD de tareas",
+    technology: ["TypeScript Lit Firebase CSS3"],
+    github: "https://github.com/sebastian009w/lit-todo-list",
+    demo: "https://github.com/sebastian009w/lit-todo-list",
   },
   {
     id: 2,
     title: "title",
-    description: "description",
+    image: litTodoImage,
+    description:
+      "Aplicacion Full Stack en donde utilizo unas de las herramientas mas satisfactorias en el mundo de la tecnologia 'Los web Component' Usando un backend As Services 'Firebase' Realizo un CRUD de tareas ",
     technology: ["html"],
     github: "",
     demo: "",
@@ -18,7 +24,9 @@ export default [
   {
     id: 3,
     title: "title",
-    description: "description",
+    image: litTodoImage,
+    description:
+      "Aplicacion Full Stack en donde utilizo unas de las herramientas mas satisfactorias en el mundo de la tecnologia 'Los web Component' Usando un backend As Services 'Firebase' Realizo un CRUD de tareas ",
     technology: ["html"],
     github: "",
     demo: "",
@@ -26,7 +34,9 @@ export default [
   {
     id: 4,
     title: "title",
-    description: "descrption",
+    image: litTodoImage,
+    description:
+      "Aplicacion Full Stack en donde utilizo unas de las herramientas mas satisfactorias en el mundo de la tecnologia 'Los web Component' Usando un backend As Services 'Firebase' Realizo un CRUD de tareas ",
     technology: ["html"],
     github: "",
     demo: "",
@@ -34,7 +44,9 @@ export default [
   {
     id: 5,
     title: "title",
-    description: "descrption",
+    image: litTodoImage,
+    description:
+      "Aplicacion Full Stack en donde utilizo unas de las herramientas mas satisfactorias en el mundo de la tecnologia 'Los web Component' Usando un backend As Services 'Firebase' Realizo un CRUD de tareas ",
     technology: ["html"],
     github: "",
     demo: "",
@@ -42,7 +54,9 @@ export default [
   {
     id: 6,
     title: "title",
-    description: "descrption",
+    image: litTodoImage,
+    description:
+      "Aplicacion Full Stack en donde utilizo unas de las herramientas mas satisfactorias en el mundo de la tecnologia 'Los web Component' Usando un backend As Services 'Firebase' Realizo un CRUD de tareas ",
     technology: ["html"],
     github: "",
     demo: "",
